@@ -10,6 +10,7 @@ gem 'mysql2'
 gem 'puma', '~> 3.7'
 
 group :development, :test do
+  gem 'rspec-rails', '~> 3.7'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
