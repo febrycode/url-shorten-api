@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 20180201041510) do
 
   create_table "shortens", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "url"
-    t.string "location"
+    t.string "shortcode"
     t.datetime "last_seen_date"
     t.integer "redirect_count", default: 0, null: false
     t.datetime "created_at", null: false

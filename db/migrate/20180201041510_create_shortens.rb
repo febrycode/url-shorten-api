@@ -2,7 +2,7 @@ class CreateShortens < ActiveRecord::Migration[5.1]
   def change
     create_table :shortens do |t|
       t.string :url
-      t.string :location
+      t.string :shortcode
       t.datetime :last_seen_date
       t.integer :redirect_count, null: false, default: 0
 
