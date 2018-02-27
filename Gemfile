@@ -12,6 +12,7 @@ gem 'puma', '~> 3.7'
 group :development, :test do
   gem 'rspec-rails', '~> 3.7'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'coveralls', require: false
 end
 
 group :development do
